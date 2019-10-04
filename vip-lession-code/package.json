@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/.bin/nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "",
   "license": "ISC",
@@ -31,12 +33,14 @@
     "serve-favicon": "~2.3.0",
     "wechat-api": "^1.25.1",
     "wechat-oauth": "^1.1.1",
-    "weixin-pay": "1.1.6"
+    "weixin-pay": "1.1.6",
+    "snyk": "^1.230.5"
   },
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.4.5",
     "nodemon": "^1.9.1",
     "supertest": "^1.2.0"
-  }
+  },
+  "snyk": true
 }
