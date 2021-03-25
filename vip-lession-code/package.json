@@ -20,7 +20,7 @@
     "extend": "^3.0.0",
     "ioredis": "^1.15.1",
     "jade": "^1.11.0",
-    "mongoose": "^4.4.12",
+    "mongoose": "^5.12.2",
     "mongoose-auto-increment": "^5.0.1",
     "mongooseconfig": "^1.0.6",
     "mongoosedao": "^1.0.13",
